@@ -61,6 +61,7 @@ header h1 {
   }
 }
 
+<<<<<<< HEAD
 .mlb-timeline-stadium {
   position: relative;
   margin: 2em 0;
@@ -426,3 +427,5 @@ header h1 {
     transform: translateX(0);
   }
 }
+=======
+>>>>>>> origin/master
