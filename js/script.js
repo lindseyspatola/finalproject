@@ -22,4 +22,4 @@ jQuery(document).ready(function($){
 			( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.mlb-timeline-img').hasClass('is-hidden') ) && $(this).find('.mlb-timeline-img, .mlb-timeline-info').removeClass('is-hidden').addClass('bounce-in');
 		});
 	}
-});
+}); 

@@ -156,7 +156,7 @@ header h1 {
   }
 }
 
-@-webkit-keyframes mlb-bounce-1 {
+@-webkit-keyframes mlb-bounce-1 { 
   0% {
     opacity: 0;
     -webkit-transform: scale(0.5);
