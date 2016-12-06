@@ -107,14 +107,7 @@ header h1 {
   }
 }
 
-.mlb-timeline-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+
 }
 .mlb-timeline-img img {
   display: block;
@@ -126,14 +119,7 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
-.mlb-timeline-img.fenway-pic {
-  background: #75ce66;
-}
-.mlb-timeline-img.wrigley-pic {
-  background: #c03b44;
-}
-.mlb-timeline-img.dodger-pic {
-  background: #f0ca45;
+
 }
 @media only screen and (min-width: 1170px) {
   .mlb-timeline-img {
@@ -156,7 +142,7 @@ header h1 {
   }
 }
 
-@-webkit-keyframes mlb-bounce-1 { 
+@-webkit-keyframes mlb-bounce-1 {
   0% {
     opacity: 0;
     -webkit-transform: scale(0.5);
@@ -452,4 +438,42 @@ header h1 {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+.league { position: relative; }
+
+.teams {
+  visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.league:hover .teams {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+/* presentational */
+body { padding: 2%; font: 18px/1.4 sans-serif; }
+
+nav a { color: #E00; display: block; padding: 0.5em 1em; text-decoration: none; }
+nav a:hover { color: #F55; }
+nav ul,
+nav ul li { list-style-type: none; padding: 0; margin: 0; }
+
+nav > ul { background: #EEE; text-align: center; }
+nav > ul > li { display: inline-block; border-left: solid 1px #aaa; }
+nav > ul > li:first-child { border-left: none; }
+
+.teams {
+  background: #DDD;
 }
