@@ -4,13 +4,15 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans" rel="stylesheet">
     <link href="styles/reset.css" rel="stylesheet"> <!-- CSS reset -->
   	<link href="styles/main.css" rel="stylesheet"> <!-- Resource style -->
   	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
     <title>MLB Stadiums</title>
+  </head>
 
+  <body>
     <header>
       <h1>Major League Baseball Stadiums</h1>
     </header>
@@ -21,526 +23,855 @@
            <li class="league">
              <a href="#">North-East</a>
              <ul class="teams">
-               <li><a href="#fenway">Boston Red Sox</a></li>
-               <li><a href="#citi">New York Mets</a></li>
-               <li><a href="#yankee">New York Yankees</a></li>
-               <li><a href="#citizens">Philadelphia Phillies</a></li>
-               <li><a href="#pnc">Pittsburgh Pirates</a></li>
+               <li><a href="#red">Boston Red Sox</a></li>
+               <li><a href="#mets">New York Mets</a></li>
+               <li><a href="#yankees">New York Yankees</a></li>
+               <li><a href="#phillies">Philadelphia Phillies</a></li>
+               <li><a href="#pirates">Pittsburgh Pirates</a></li>
             </ul>
            </li>
            <li class="league">
              <a href="#">Mid-West</a>
              <ul class="teams">
-               <li><a href="#wrigley">Chicago Cubs</a></li>
-               <li><a href="#guaranteed">Chicago White Sox</a></li>
-               <li><a href="#great">Cincinnati Reds</a></li>
-               <li><a href="#progressive">Cleveland Indians</a></li>
-               <li><a href="#comerica">Detroit Tigers</a></li>
-               <li><a href="#kauffman">Kansas City Royals</a></li>
-               <li><a href="#miller">Milwaukee Brewers</a></li>
-               <li><a href="#target">Minnesota Twins</a></li>
-               <li><a href="#bush">St. Louis Cardinals</a></li>
-               <li><a href="#rogers">Toronto Blue Jays</a></li>
+               <li><a href="#cubs">Chicago Cubs</a></li>
+               <li><a href="#white">Chicago White Sox</a></li>
+               <li><a href="#reds">Cincinnati Reds</a></li>
+               <li><a href="#indians">Cleveland Indians</a></li>
+               <li><a href="#tigers">Detroit Tigers</a></li>
+               <li><a href="#royals">Kansas City Royals</a></li>
+               <li><a href="#brewers">Milwaukee Brewers</a></li>
+               <li><a href="#twins">Minnesota Twins</a></li>
+               <li><a href="#cardinals">St. Louis Cardinals</a></li>
+               <li><a href="#jays">Toronto Blue Jays</a></li>
              </ul>
            </li>
-           <ul>
              <li class="league">
                <a href="#">South</a>
                <ul class="teams">
-                 <li><a href="#suntrust">Atlanta Braves</a></li>
-                 <li><a href="#minute">Houston Astros</a></li>
-                 <li><a href="#miami">Miami Marlins</a></li>
-                 <li><a href="#tropicana">Tampa Bay Rays</a></li>
-                 <li><a href="#globe">Texas Rangers</a></li>
+                 <li><a href="#braves">Atlanta Braves</a></li>
+                 <li><a href="#astros">Houston Astros</a></li>
+                 <li><a href="#mmarlins">Miami Marlins</a></li>
+                 <li><a href="#rays">Tampa Bay Rays</a></li>
+                 <li><a href="#rangers">Texas Rangers</a></li>
                </ul>
              </li>
-             <ul>
                <li class="league">
                  <a href="#">West</a>
                  <ul class="teams">
-                   <li><a href="#chase">Arizona Dimondbacks</a></li>
-                   <li><a href="#coors">Colorado Rockies</a></li>
-                   <li><a href="#angel">Los Angeles Angels of Anaheim</a></li>
-                   <li><a href="#dodger">Los Angeles Dodgers</a></li>
-                   <li><a href="#oakland">Oakland Athletics</a></li>
-                   <li><a href="#petco">San Diego Padres</a></li>
-                   <li><a href="#att">San Francisco Giants</a></li>
-                   <li><a href="#safeco">Seattle Mariners</a></li>
+                   <li><a href="#dimondbacks">Arizona Dimondbacks</a></li>
+                   <li><a href="#rockies">Colorado Rockies</a></li>
+                   <li><a href="#aangels">Los Angeles Angels of Anaheim</a></li>
+                   <li><a href="#dodgers">Los Angeles Dodgers</a></li>
+                   <li><a href="#athletics">Oakland Athletics</a></li>
+                   <li><a href="#padres">San Diego Padres</a></li>
+                   <li><a href="#giants">San Francisco Giants</a></li>
+                   <li><a href="#mariners">Seattle Mariners</a></li>
                  </ul>
                </li>
          </ul>
        </nav>
      </section>
 
-</head>
 
-<body>
 
-  <a name="fenway"></a>
+  <section id="mlb-timeline" class="stadium-container">
 
-<section id="mlb-timeline" class="stadium-container">
+
   <div class="mlb-timeline-stadium">
-    <div class="mlb-timeline-img-fenway-pic">
-      <img src="images/fenway.jpg" alt="Fenway Park">
+    <div class="mlb-timeline-img">
+      <img src="images/baseball.png" alt="Baseball Icon">
     </div>
-
 
     <div class="mlb-timeline-info">
       <h2>Fenway Park</h2>
-      <p>Fenway Park is the home of the Boston Red Sox. It opened in 1912 in Boston, Massachusetts.</p>
+      <p>Home of the Boston Red Sox in Boston, Massachusetts | Opened April 20, 1912</p>
+      <div class="park-img">
+        <img id="fenway" src="images/fenway.jpg" alt="Fenway Park">
+      </div>
+      <div id="more">
+        <p>Capacity: 37,673 (night), 37,221 (day)</p>
+        <p>Surface: Grass</p>
+        <p>Cost: $650,000</p>
+        <p>Dimensions: 310-L, 379-LC, 420-C, 380-RC, 302-R</p>
+        <p>Architect: Osborn Engineering</p>
+        <p>Owner: Boston Red Sox</p>
+      </div>
+      <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2gK0UOr">Chrissy R.</a></p>
       <span class="stadium-date">1912</span>
     </div>
   </div>
 
-  <a name="wrigley"></a>
+  <a name="cubs"></a>
 
   <div class="mlb-timeline-stadium">
-    <div class="mlb-timeline-img-wrigley-pic">
-      <img src="images/wrigley.jpg" alt="Wrigley Field">
+    <div class="mlb-timeline-img">
+      <img src="images/baseball.png" alt="Baseball Icon">
     </div>
 
     <div class="mlb-timeline-info">
-      <h2>Wrigley Field</h2>
-      <p>Wrigley Field is the home of the Chicago Cubs. It opened in 1914 in Chicago, Illinois. Photo by <a href="http://bit.ly/2fqv8JI">jpellgen</a></p>
-      <span class="stadium-date">1914</span>
-    </div>
-  </div>
+     <h2>Wrigley Field</h2>
+     <p>Home of the Chicago Cubs in Chicago, Illinois | Opened April 23, 1914</p>
+     <div class="park-img">
+       <img id="wrigley" src="images/wrigley.jpg" alt="Wrigley Field">
+     </div>
+     <div id="more1">
+       <p>Capacity: 41,160</p>
+       <p>Surface: Grass </p>
+       <p>Cost: $250,000 </p>
+       <p>Architect: Zachary Taylor Davis </p>
+       <p>Owner: Chicago Cubs </p>
+       <p>Former Name(s): Weegham Park (1914-’20), Cubs Park (1920-’25) </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2fqv8JI">jpellgen</a></p>
+     <span class="stadium-date">1914</span>
+   </div>
+ </div>
+
+
+ <a name="dodgers"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Dodger Stadium</h2>
+     <p>Home of the Los Angeles Dodger in Los Angeles, California | Opened April 10, 1962</p>
+     <div class="park-img">
+       <img id="dodger" src="images/dodger.jpg" alt="Dodger Stadium">
+     </div>
+
+     <div id="more2">
+       <p>Capacity: 56,000 </p>
+       <p>Surface: Grass</p>
+       <p>Cost: $23 Million </p>
+       <p>Architect: Emil Praeger </p>
+       <p>Owner: Los Angeles Dodgers</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2g8CiBp">Ron Reiring</a></p>
+     <span class="stadium-date">1962</span>
+   </div>
+ </div>
+
+ <a name="aangels"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Angel Stadium of Anaheim</h2>
+     <p>Home of the Los Angeles Angels of Anaheim in Anaheim, California | Opened April 19, 1966</p>
+     <div class="park-img">
+       <img id="angels" src="images/angels.jpg" alt="Angel Stadium of Anaheim">
+     </div>
+     <div id="more3">
+       <p>Capacity: 45,493 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $24 Million, $117 Million (renovations) </p>
+       <p>Dimensions: 330-L, 387-LC, 400-C, 370-RC, 330-R </p>
+       <p>Architect: N. Herzberg, R. Stern</p>
+       <p>Owner: City of Anaheim </p>
+       <p>Former Name(s): Anaheim Stadium (1966-’97), Edison Int’l Field (’97-2003) </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2gJXhrK">Ray_LAC</a></p>
+     <span class="stadium-date">1966</span>
+   </div>
+ </div>
+
+ <a name="athletics"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Oakland Coliseum</h2>
+     <p>Home of the Oakland Athletics in Oakland, California | Opened September 18, 1966</p>
+     <div class="park-img">
+       <img id="oakland" src="images/oakland.jpg" alt="Oakland Coliseum">
+     </div>
+     <div id="more4">
+       <p>Capacity: 35,067 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $25.5 Million</p>
+       <p>Dimensions: 330-L, 362-LC, 400-C, 362-RC, 330-R </p>
+       <p>Architect: Skidmore, Owings, Merrill </p>
+       <p>Owner: Alameda County </p>
+       <p>Former Name(s): Oakland Coliseum (1966-’98), Network Associates Coliseum (’98-’04), McAfee Coliseum (’04-’08), Oakland Coliseum (’09-’11), O.co Coliseum (’11-’15) </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hnQCr5">b r e n t</a></p>
+     <span class="stadium-date">1966</span>
+   </div>
+ </div>
+
+ <a name="royals"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Kauffman Stadium</h2>
+     <p>Home of the Kansas City Royals in Kansas City, Missouri | Opened April 10, 1973</p>
+     <div class="park-img">
+       <img id="kauffman" src="images/kauffman.jpg" alt="Kauffman Stadium">
+     </div>
+     <div id="more5">
+       <p>Capacity: 40,793 (original) 38,177 (current) </p>
+       <p>Surface: Grass -Cost: $43 Million </p>
+       <p>Dimensions: 330-L, 390-LC, 410-C, 390-RC, 330-R </p>
+       <p>Architect: HOK </p>
+       <p>Owner: Jackson County </p>
+       <p>Former Name(s): Royals Stadium (1973-1993) </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2gjCev3">George Thomas</a></p>
+     <span class="stadium-date">1973</span>
+   </div>
+ </div>
+
+ <a name="jays"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Rogers Centre</h2>
+     <p>Home of the Toronto Blue Jays in Toronto, Ontario | Opened June 3, 1989</p>
+     <div class="park-img">
+       <img id="rogers" src="images/rogers.jpg" alt="Rogers Centre">
+     </div>
+     <div id="more6">
+       <p>Capacity: 50,516 </p>
+       <p>Surface: Fieldturf </p>
+       <p>Cost: $500 Million </p>
+       <p>Dimensions: 328-L, 375-LC, 400-C, 375-RC, 328-R </p>
+       <p>Architect: R. Robbie & M. Allen </p>
+       <p>Owner: Rogers Communications/Toronto Blue Jays </p>
+       <p>Former Name(s): SkyDome </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2glQwQT">Theodore C</a></p>
+     <span class="stadium-date">1989</span>
+   </div>
+ </div>
+
+ <a name="rays"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Tropicana Field</h2>
+     <p>THome of Tampa Bay Ray in St. Petersburg, Florida | Opened March 3, 1990</p>
+     <div class="park-img">
+       <img id="tropicana" src="images/tropicana.jpg" alt="Tropicana Field">
+     </div>
+     <div id="more7">
+       <p>Capacity: 31,042 (2014), 42,735 </p>
+       <p>Surface: Fieldturf </p>
+       <p>Cost: $115 Million (original) $85 Million (renovations) </p>
+       <p>Dimensions: 315-L, 404-C, 322-R </p>
+       <p>Architect: DLR Group Sports </p>
+       <p>Owner: City of St. Petersburg </p>
+       <p>Former Name(s): Suncoast Dome (1986-’93), Thunderdome (1993-’97) </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2huHRrd">Bryce Edwards</a></p>
+     <span class="stadium-date">1990</span>
+   </div>
+ </div>
+
+ <a name="white"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Guaranteed Rate Field</h2>
+     <p>Home of the Chicago White Sox in Chicago, Illinois | Opened April 18, 1991</p>
+     <div class="park-img">
+       <img id="rate" src="images/rate.jpg" alt="Guaranteed Rate Field">
+     </div>
+     <div id="more8">
+       <p>Capacity: 40,615 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $137 Million</p>
+       <p>Dimensions: 330-L, 377-LC, 400-C, 372-RC, 335-R </p>
+       <p>Architect: HOK </p>
+       <p>Owner: Illinois Sports Facilities Authority </p>
+       <p>Former Name(s): Comiskey Park (1991-2003), US Cellular Field (2003-2016) </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hcyxsN">FaceMePLS</a></p>
+     <span class="stadium-date">1989</span>
+   </div>
+ </div>
+
+ <a name="orioles"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Oriole Park at Camden Yard</h2>
+     <p>Home of the Baltimore Orioles in Baltimore, Maryland | Opened April 6, 1992</p>
+     <div class="park-img">
+       <img id="oriole" src="images/oriole.jpg" alt="Oriole Park at Camden Yard">
+     </div>
+     <div id="more9">
+       <p>Capacity: 45,971 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $110 Million </p>
+       <p>Dimensions: 333-L, 364-LC, 410-C, 373-RC, 318-R </p>
+       <p>Architect: HOK </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hfGcaj">Brian Moran</a></p>
+     <span class="stadium-date">1992</span>
+   </div>
+ </div>
+
+ <a name="rangers"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Globe Life Park in Arlington</h2>
+     <p>Home of the Texas Rangers in Arlington, Texas | Opened April 1, 1994</p>
+     <div class="park-img">
+       <img id="globe" src="images/globe.jpg" alt="Globe Life Park in Arlington">
+     </div>
+     <div id="more10">
+       <p>Capacity: 48,114 </p>
+       <p>Surface: Grass -Cost: $191 Million </p>
+       <p>Architect: HKS Inc, David M. Schwarz Architectural Services </p>
+       <p>Owner: Arlington Sports Facility Development Authority </p>
+       <p>Former Name(s): Ballpark in Arlington (1994-2004, ’07-’13), Ameriquest Field (2005-’06) </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hfGkGP">Robert Hensley</a></p>
+     <span class="stadium-date">1994</span>
+   </div>
+ </div>
+
+ <a name="indians"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Progressive Field</h2>
+     <p>Home of the Cleveland Indians in Cleveland, Ohio | Opened April 2, 1994</p>
+     <div class="park-img">
+       <img id="progressive" src="images/progressive.jpg" alt="Progressive Field">
+     </div>
+     <div id="more11">
+       <p>Capacity: 35,225, 43,405 (1994-2014) </p>
+       <p>Surface: Grass</p>
+       <p>Cost: $169 Million</p>
+       <p>Dimensions: 325-L, 370-LC, 405-C, 375-RC, 325-R</p>
+       <p>Architect: HOK</p>
+       <p>Owner: Cuyahoga County</p>
+       <p>Former Name(s): Jacobs Field (1994-2007) </p>
+   </div>
+   <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2huHMUH">Doug Chapman</a></p>
+     <span class="stadium-date">1994</span>
+   </div>
+ </div>
+
+ <a name="rockies"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Coors Field</h2>
+     <p>Home of the Colorado Rockies in Denver, Colorado | Opened April 26, 1995</p>
+     <div class="park-img">
+       <img id="coors" src="images/coors.jpg" alt="Coors Field">
+     </div>
+     <div id="more12">
+       <p>Capacity: 50,398 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $215 Million</p>
+       <p>Dimensions: 347-L, 390-LC, 415-C, 375-RC, 350-R </p>
+       <p>Architect: HOK </p>
+       <p>Owner: Denver Metropolitan Baseball Stadium District</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hdUOcw">Keith</a></p>
+     <span class="stadium-date">1995</span>
+   </div>
+ </div>
+
+ <a name="dimondbacks"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Chase Field</h2>
+     <p>Home of the Arizona Diamondbacks in Phoenix, Arizona | Opened March 31, 1998</p>
+     <div class="park-img">
+       <img id="chase" src="images/chase.jpg" alt="Chase Field">
+     </div>
+     <div id="more13">
+       <p>Capacity: 48,633 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $354 Million </p>
+       <p>Dimensions: 330-L, 376-LC, 407-C, 376-RC, 335-R </p>
+       <p>Architect: Ellerbe Becket </p>
+       <p>Owner: Maricopa County Stadium District </p>
+       <p>Former Name(s): Bank One Ballpark</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hfGfTf">Clintus</a></p>
+     <span class="stadium-date">1998</span>
+   </div>
+ </div>
+
+ <a name="mariners"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Safeco Field</h2>
+     <p>Home of the Seattle Mariners in Seattle, Washington | Opened July 15, 1999</p>
+     <div class="park-img">
+       <img id="safeco" src="images/safeco.jpg" alt="Safeco Field">
+     </div>
+     <div id="more14">
+       <p>Capacity: 47,574 </p>
+       <p>Surface: Grass -Cost: $517 Million </p>
+       <p>Dimensions: 331-L, 378-LC, 405-DP, 401-C, 385-RC, 326-R </p>
+       <p>Architect: NBBJ </p>
+       <p>Owner: Washington/King County Stadium Authority</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2h6GUbC">Scott Moore</a></p>
+     <span class="stadium-date">1999</span>
+   </div>
+ </div>
+
+ <a name="giants"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>AT&T Park</h2>
+     <p>Home San Francisco Giants in San Francisco | Opened April 11, 2000</p>
+     <div class="park-img">
+       <img id="att" src="images/att.jpg" alt="AT&T Park">
+     </div>
+     <div id="more15">
+       <p>Capacity: 41,915 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $357 Million </p>
+       <p>Dimensions: 339-L, 382-LC, 399-C, 421-RC, 309-R </p>
+       <p>Architect: HOK </p>
+       <p>Owner: China Basin Baseball Corporation -Former Name(s): Pacific Bell Park (2000-03), SBC Park (2004-06) </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hcK4bp">Lisa Suender</a></p>
+     <span class="stadium-date">2000</span>
+   </div>
+ </div>
+
+ <a name="tigers"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Comerica Park</h2>
+     <p>Home of the Detroit Tigers in Detroit, Michigan | Opened April 11, 2000</p>
+     <div class="park-img">
+       <img id="comerica" src="images/comerica.jpg" alt="Comerica Park">
+     </div>
+     <div id="more16">
+       <p>Capacity: 41,574 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $300 Million </p>
+       <p>Dimensions: 345-L, 370-LC, 420-C, 365-RC, 330-R </p>
+       <p>Architect: Populus </p>
+       <p>Owner: Detroit/Wayne County Stadium Authority</p>
+ </div>
+ <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hnVa0x">Kevin Ward</a></p>
+     <span class="stadium-date">2000</span>
+   </div>
+ </div>
+
+ <a name="astros"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Minute Maid Park</h2>
+     <p>Home of the Houston Astros in Houston, Texas | Opened April 7, 2000</p>
+     <div class="park-img">
+       <img id="minute" src="images/minute.jpg" alt="Minute Maid Park">
+     </div>
+     <div id="more17">
+       <p>Capacity: 41,574 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $248 Million</p>
+       <p>Dimensions: 315-L, 362-LC, 435-C, 373-RC, 326-R </p>
+       <p>Architect: HOK </p>
+       <p>Owner: Harris County Sports Authority </p>
+       <p>Former Name(s): Enron Field (2000-’01), Astros Field (2001) </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2huPv50">Roy Luck</a></p>
+     <span class="stadium-date">2000</span>
+   </div>
+ </div>
+
+ <a name="brewers"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Miller Park</h2>
+     <p>Home of the Milwaukee Brewers in Milwaukee, Wisconsin | Opened April 6, 2001</p>
+     <div class="park-img">
+       <img id="miller" src="images/miller.jpg" alt="Miller Park">
+     </div>
+     <div id="more18">
+       <p>Capacity: 41,900 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $382 Million </p>
+       <p>Dimensions: 344-L, 390-LC, 400-C, 381-RC, 345-R </p>
+       <p>Architect: HKS Inc. </p>
+       <p>Owner: Southeast Wisconsin Professional Baseball District, Milwaukee Brewers</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2glM988">Elvis Kennedy</a></p>
+     <span class="stadium-date">2001</span>
+   </div>
+ </div>
+
+ <a name="pirates"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>PNC Park</h2>
+     <p>Home of the Pittsburgh Pirates in Pittsburgh, Pennsylvania | Opened March 31, 2001</p>
+     <div class="park-img">
+       <img id="pnc" src="images/pnc.jpg" alt="PNC Park">
+     </div>
+     <div id="more19">
+       <p>Capacity: 38,362 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $216 Million </p>
+       <p>Dimensions: 325-L, 389-LC, 399-C, 375-RC, 320-R </p>
+       <p>Architect: HOK/LDA </p>
+       <p>Owner: City of Pittsburgh Sports and Exhibition Authority</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hfJUAE">Dan Gaken</a></p>
+     <span class="stadium-date">2001</span>
+   </div>
+ </div>
+
+ <a name="reds"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Great American Ball Park</h2>
+     <p>Home of the Cincinnati Reds in Cincinnati, Ohio | Opened March 31, 2003</p>
+     <div class="park-img">
+       <img id="great" src="images/great.jpg" alt="Great American Ball Park">
+     </div>
+     <div id="more20">
+       <p>Capacity: 42,271 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $320 Million </p>
+       <p>Dimensions: 325-R, 404-C, 328-L</p>
+       <p>Architect: HOK </p>
+       <p>Owner: Hamilton County</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hcEvK1">jessedouglas</a></p>
+     <span class="stadium-date">2003</span>
+   </div>
+ </div>
+
+ <a name="phillies"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Citizens Bank Park</h2>
+     <p>Home of the Philadelphia Phillies in Philadelphia, Pennsylvania | Opened April 3, 2004</p>
+     <div class="park-img">
+       <img id="citizens" src="images/citizens.jpg" alt="Citizens Bank Park">
+     </div>
+     <div id="more21">
+       <p>Capacity: 43,647 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $458 Million </p>
+       <p>Dimensions: 330-L, 374-LC, 401-C, 369-RC, 329-R </p>
+       <p>Architect: HOK, Ewing Cole Cherry Brott </p>
+       <p>Owner: City of Philadelphia</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hfEu8H">WestonStudioLLC</a></p>
+     <span class="stadium-date">2004</span>
+   </div>
+ </div>
+
+
+ <a name="padres"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Petco Park</h2>
+     <p>Home of the San Diego Padres in San Diego, California | Opened April 8, 2004</p>
+     <div class="park-img">
+       <img id="petco" src="images/petco.jpg" alt="Petco Park">
+     </div>
+     <div id="more22">
+       <p>Capacity: 41,164</p>
+       <p>Surface: Grass </p>
+       <p>Cost: $449.4 Million</p>
+       <p>Dimensions: 336-L, 386-LC, 396-C, 391-RC, 322-R </p>
+       <p>Architect: HOK, Antoine Predock </p>
+       <p>Owner: City of San Diego (70%), Padres (30%)</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2gK7vIL">brian wallace</a></p>
+     <span class="stadium-date">2004</span>
+   </div>
+ </div>
+
+ <a name="cardinals"></a>
+
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Busch Stadium</h2>
+     <p>Home of the St. Louis Cardinals in St. Louis, Missouri | Opened April 10, 2006</p>
+     <div class="park-img">
+       <img id="busch" src="images/busch.jpg" alt="Busch Stadium">
+     </div>
+     <div id="more23">
+       <p>Capacity: 46,700 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $411 Million </p>
+       <p>Dimensions: 336-L, 375-LC, 400-C, 375-RC, 335-R </p>
+       <p>Architect: HOK Sport </p>
+       <p>Owner: St. Louis Cardinals</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2h6OwuJ">Tim</a></p>
+     <span class="stadium-date">2006</span>
+   </div>
+ </div>
+
+
+ <a name="wnationals"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Nationals Park</h2>
+     <p>Home of the Washington Nationals in Washington, D.C. | Opened March 30, 2008</p>
+     <div class="park-img">
+       <img id="nationals" src="images/nationals.jpg" alt="Nationals Park">
+     </div>
+     <div id="more24">
+       <p>Capacity: 43,3416 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $611 Million</p>
+       <p>Dimensions: 336-L, 377-LC, 402-C, 370-RC, 335-R </p>
+       <p>Architect: HOK/Devrouax-Purnell Architects</p>
+       <p>Owner: D.C. Sports Commission</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2gtEF1B">theblackdog2071</a></p>
+    <span class="stadium-date">2008</span>
+   </div>
+ </div>
+
+ <a name="mets"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Citi Field</h2>
+     <p>Home of the New York Mets in Queens, New York | Opened April 13, 2009 </p>
+     <div class="park-img">
+       <img id="citi" src="images/citi.jpg" alt="Citi Field">
+     </div>
+     <div id="more25">
+       <p>Capacity: 42,000 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $632 Million</p>
+       <p>Dimensions: 335-L, 370-LC, 408-C, 380-RC, 330-R </p>
+       <p>Architect: HOK Sport </p>
+       <p>Owner: New York Mets</p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2gjzldD">Chris Swann</a></p>
+     <span class="stadium-date">2009</span>
+   </div>
+ </div>
+
+
+ <a name="yankees"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Yankee Stadium</h2>
+     <p>Home of the New York Yankees in Bronx, New York| Opened April 16, 2009</p>
+     <div class="park-img">
+       <img id="yankee" src="images/yankee.jpg" alt="Yankee Stadium">
+     </div>
+     <div id="more26">
+       <p>Capacity: 52,325</p>
+       <p>Surface: Grass </p>
+       <p>Cost: $1.6 Billion </p>
+       <p>Architect: HOK Sport </p>
+       <p>Owner: New York </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hcF3Qa">Dex(07)</a></p>
+     <span class="stadium-date">2009</span>
+   </div>
+ </div>
+
+
+ <a name="twins"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Target Field</h2>
+     <p>Home of the Minnesota Twins in Minneapolis, Minnesota | Opened January 4, 2010</p>
+     <div class="park-img">
+       <img id="target" src="images/target.jpg" alt="Target Field">
+     </div>
+     <div id="more27">
+       <p>Capacity: 39,029 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $545 Million </p>
+       <p>Dimensions: 339-L, 377-LC, 411-C, 365-RC, 328-R </p>
+       <p>Architect: Populus and HGA </p>
+       <p>Owner: Hennepin County </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2hfIh5W">gutenfrog</a></p>
+     <span class="stadium-date">2010</span>
+   </div>
+ </div>
+
+
+ <a name="mmarlins"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>Marlins Park</h2>
+     <p>Home of the Miami Marlins in Miami, Florida | Opened April 4, 2012 </p>
+     <div class="park-img">
+       <img id="marlins" src="images/marlins.jpg" alt="Marlins Park">
+     </div>
+     <div id="more28">
+       <p>Capacity: 37,442 </p>
+       <p>Surface: Grass </p>
+       <p>Cost: $515 Million </p>
+       <p>Dimensions: 340-L, 384-LC, 407-C, 392-RC, 335-R </p>
+       <p>Architect: Populus </p>
+       <p>Owner: Miami-Dade County </p>
+     </div>
+     <p>Click on the photo for more information. Photo by <a href="http://bit.ly/2h6H7LZ">verndogs</a></p>
+     <span class="stadium-date">2012</span>
+   </div>
+ </div>
+
+
+
+ <a name="braves"></a>
+
+ <div class="mlb-timeline-stadium">
+   <div class="mlb-timeline-img">
+     <img src="images/baseball.png" alt="Baseball Icon">
+   </div>
+
+   <div class="mlb-timeline-info">
+     <h2>SunTrust Park	</h2>
+     <p>Home of the Atlanta Braves in Cumberland, Georgia | Opening February 21, 2017 (planned)</p>
+     <div class="park-img">
+       <img id="suntrust" src="images/suntrust.jpg" alt="Suntrust Park">
+     </div>
+     <div id="more29">
+       The 2016 season was the Atlanta Braves last season at Tuner Field. They will move to Suntrust Park for the 2017 season.
+     </div>
+     <p><a href="http://www.freepik.com/free-vector/coming-soon-blue-sign_762222.htm">Designed by Freepik</a></p>
+     <span class="stadium-date">2017</span>
+   </div>
+ </div>
 
-
-  <a name="dodger"></a>
-
-  <div class="mlb-timeline-stadium">
-    <div class="mlb-timeline-img dodger-pic">
-      <img src="images/dodger.jpg" alt="Dodger Stadium">
-    </div>
-
-    <div class="mlb-timeline-info">
-      <h2>Dodger Stadium</h2>
-      <p>Dodger Stadium is the home of the Los Angeles Dodger. It opened in 1962 in Los Angeles, California. Photo by <a href="http://bit.ly/2g8CiBp">Ron Reiring</a></p>
-
-      <span class="stadium-date">1962</span>
-    </div>
-  </div>
-
-<a name="angel"></a>
-
-    <div class="mlb-timeline-stadium">
-      <div class="mlb-timeline-img angels-pic">
-        <img src="images/angels.jpg" alt="Angel Stadium of Anaheim">
-      </div>
-
-      <div class="mlb-timeline-info">
-        <h2>Angel Stadium of Anaheim</h2>
-        <p>Angel Stadium of Anaheim is the home of the Los Angeles Angels of Anaheim. It opened in 1966 in Anaheim, California. Photo by <a href="http://bit.ly/2gInJlK">Orange County Archives</a></p>
-
-        <span class="stadium-date">1966</span>
-      </div>
-    </div>
-
-    <a name="oakland"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img oakland-pic">
-          <img src="images/oakland.jpg" alt="Oakland Coliseum">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Oakland Coliseum</h2>
-          <p>Oakland Coliseum is the home of the Oakland Athletics. It opened in 1966 in Oakland, California. Photo by <a href="http://bit.ly/2gIpTSCv">Charlie Day</a></p>
-
-          <span class="stadium-date">1966</span>
-        </div>
-      </div>
-
-      <a name="kauffman"></a>
-
-    <div class="mlb-timeline-stadium">
-      <div class="mlb-timeline-img kauffman-pic">
-        <img src="images/kauffman.jpg" alt="Kauffman Stadium">
-      </div>
-
-      <div class="mlb-timeline-info">
-        <h2>Kauffman Stadium</h2>
-        <p>Kauffman Stadium is the home of the Kansas City Royals. It opened in 1973 in Kansas City, Missouri. Photo by <a href="http://bit.ly/2gUUICO">Chris Murphy</a></p>
-
-        <span class="stadium-date">1973</span>
-      </div>
-    </div>
-
-    <a name="rogers"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img rogers-pic">
-          <img src="images/rogers.jpg" alt="Rogers Centre">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Rogers Centre</h2>
-          <p>Rogers Centre is the home of the Toronto Blue Jays. It opened in 1989 in Toronto, Ontario. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">1989</span>
-        </div>
-      </div>
-
-      <a name="tropicana"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img tropicana-pic">
-          <img src="images/tropicana.jpg" alt="Tropicana Field">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Tropicana Field</h2>
-          <p>Tropicana Field is the home of the Tampa Bay Rays. It opened in 1990 in Tampa, Florida. Photo by <a href="http://bit.ly/2g1Gq5P">Bryce Edwards</a></p>
-
-          <span class="stadium-date">1990</span>
-        </div>
-      </div>
-
-      <a name="guaranteed"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img cellular-pic">
-          <img src="images/cellular.jpg" alt="Guaranteed Rate Field">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Guaranteed Rate Field</h2>
-          <p>Guaranteed Rate Field is the home of the Chicago WHite Sox. It opened in 1991 in Chicago, Illinois. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">1989</span>
-        </div>
-      </div>
-
-      <a name="oriole"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img oriole-pic">
-          <img src="images/oriole.jpg" alt="Oriole Park at Camden Yard">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Oriole Park at Camden Yard</h2>
-          <p>Oriole Park at Camden Yard is the home of the Baltimore Orioles. It opened in 1992 Baltimore, Maryland. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">1992</span>
-        </div>
-      </div>
-
-      <a name="globe"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img globe-pic">
-          <img src="images/globe.jpg" alt="Globe Life Park in Arlington">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Globe Life Park in Arlington</h2>
-          <p>Globe Life Park in Arlington is the home of the Texas Rangers. It opened in 1994 in Arlington, Texas. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">1994</span>
-        </div>
-      </div>
-
-      <a name="progressive"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img progressive-pic">
-          <img src="images/progressive.jpg" alt="Progressive Field">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Progressive Field</h2>
-          <p>Progressive Field is the home of the Cleveland Indians. It opened in 1994 in Cleveland, Ohio. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">1994</span>
-        </div>
-      </div>
-
-      <a name="coors"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img coors-pic">
-          <img src="images/coors.jpg" alt="Coors Field">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Coors Field</h2>
-          <p>Coors Field is the home of the Colorado Rockies. It opened in 1995 in Denver, Colorado. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">1995</span>
-        </div>
-      </div>
-
-      <a name="chase"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img chase-pic">
-          <img src="images/chase.jpg" alt="Chase Field">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Chase Field</h2>
-          <p>Chase Field is the home of the Arizone Diamondbacks. It opened in 1998 in Phoenix, Arizona. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">1998</span>
-        </div>
-      </div>
-
-      <a name="safeco"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img safeco-pic">
-          <img src="images/safeco.jpg" alt="Safeco Field">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Safeco Field</h2>
-          <p>Safeco Field is the home of the Seattle Mariners. It opened in 1999 in Seattle, Washington. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">1999</span>
-        </div>
-      </div>
-
-      <a name="att"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img att-pic">
-          <img src="images/att.jpg" alt="AT&T Park">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>AT&T Park</h2>
-          <p>AT&T Park is the home of the San Francisco Giants. It opened in 2000 in San Francisco, California. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2000</span>
-        </div>
-      </div>
-
-      <a name="comerica"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img comerica-pic">
-          <img src="images/comerica.jpg" alt="Comerica Park">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Comerica Park</h2>
-          <p>Comerica Park is the home of the Detroit Tigers. It opened in 2000 in Detroit, Michigan. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2000</span>
-        </div>
-      </div>
-
-      <a name="minute"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img minute-pic">
-          <img src="images/minute.jpg" alt="Minute Maid Park">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Minute Maid Park</h2>
-          <p>Minute Maid Park is the home of the Houston Astros. It opened in 2000 in Houston, Texas. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2000</span>
-        </div>
-      </div>
-
-      <a name="miller"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img rogers-pic">
-          <img src="images/rogers.jpg" alt="Miller Park">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Miller Park</h2>
-          <p>Miller Park is the home of the Milwaukee Brewers. It opened in 2001 in Milwaukee, Wisconsin. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2001</span>
-        </div>
-      </div>
-
-      <a name="pnc"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img miller-pic">
-          <img src="images/miller.jpg" alt="PNC Park">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>PNC Park</h2>
-          <p>PNC Park is the home of the Pittsburugh Pirates. It opened in 2001 in Pittsburgh, Pennsylvania. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2001</span>
-        </div>
-      </div>
-
-      <a name="great"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img rogers-pic">
-          <img src="images/rogers.jpg" alt="Great American Ball Park">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Great American Ball Park</h2>
-          <p>Great American Ball Park is the home of the Cincinnati Reds. It opened in 2003 in Cincinnati, Ohio. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2003</span>
-        </div>
-      </div>
-
-      <a name="citizens"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img great-pic">
-          <img src="images/great.jpg" alt="Citizens Bank Park">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Citizens Bank Park</h2>
-          <p>Citizens Bank Park is the home of the Philadelphia Phillies. It opened in 2004 in Philadelphia, Pennsylvania. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2004</span>
-        </div>
-      </div>
-
-
-      <a name="petco"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img petco-pic">
-          <img src="images/petco.jpg" alt="Petco Park">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Petco Park</h2>
-          <p>Petco Park is the home of the San Diego Padres. It opened in 2004 in San Diego, California. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2004</span>
-        </div>
-      </div>
-
-      <a name="busch"></a>
-
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img busch-pic">
-          <img src="images/busch.jpg" alt="Busch Stadium">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Busch Stadium</h2>
-          <p>Busch Stadium is the home of the St. Louis Cardinals. It opened in 2006 in St. Louis, Missouri. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2006</span>
-        </div>
-      </div>
-
-
-      <a name="nationals"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img nationals-pic">
-          <img src="images/nationals.jpg" alt="Nationals Park">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Nationals Park</h2>
-          <p>Nationals Park is the home of the Washington Nationals. It opened in 2008 in Washington, D.C.. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2008</span>
-        </div>
-      </div>
-
-      <a name="citi"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img citi-pic">
-          <img src="images/citi.jpg" alt="Citi Field">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Citi Field</h2>
-          <p>Citi Field is the home of the New York Mets. It opened in 2009 in Queens, New York. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2009</span>
-        </div>
-      </div>
-
-
-    <a name="yankee"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img yankee-pic">
-          <img src="images/yankee.jpg" alt="Yankee Stadium">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Yankee Stadium</h2>
-          <p>Yankee Stadium is the home of the New York Yankees. It opened in 2009 in Bronx, New York. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2009</span>
-        </div>
-      </div>
-
-
-    <a name="target"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img target-pic">
-          <img src="images/target.jpg" alt="Target Field">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Target Field</h2>
-          <p>Target Field is the home of the Minnesota Twins. It opened in 2010 in Minneapolis, Minnesota. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2010</span>
-        </div>
-      </div>
-
-
-      <a name="marlins"></a>
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img marlins-pic">
-          <img src="images/marlins.jpg" alt="Marlins Park">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>Marlins Park</h2>
-          <p>Marlins Park is the home of the Miami Marlins. It opened in 2012 in Miami, Florida. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2012</span>
-        </div>
-      </div>
-
-
-
-    <a name="suntrust"></a>
-
-      <div class="mlb-timeline-stadium">
-        <div class="mlb-timeline-img suntrust-pic">
-          <img src="images/suntrust.jpg" alt="SunTrust Park	">
-        </div>
-
-        <div class="mlb-timeline-info">
-          <h2>SunTrust Park	</h2>
-          <p>SunTrust Park	 is the home of the Atlanta Braves. It opened in 2017 in Cumberland, Georgia. Photo by <a href="http://bit.ly/2gVR1Nd">Theodore C</a></p>
-
-          <span class="stadium-date">2017</span>
-        </div>
-      </div>
 
 
 
 </section>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/script.js"></script>
 
+<footer>Baseball Icons by Madebyoliver<a href="http://www.flaticon.com/free-icon/baseball_140411#term=baseball&page=1&position=3"> from www.flaticon.com</a>. Stadium information from <a href="http://www.ballparksofbaseball.com/">Ballparks of Baseball</a></footer>
 
 </body>
 </html>
