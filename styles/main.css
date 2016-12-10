@@ -1,8 +1,4 @@
-/* --------------------------------
-
-Primary style
-
--------------------------------- */
+/*This timeline was model after a tutorial at https://codyhouse.co/gem/vertical-timeline/ */
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
